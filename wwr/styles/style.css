@@ -8,6 +8,7 @@ nav a {
     text-align: center;
     color: #242222;
     text-decoration: none;
+    padding: 35px;
 }
 hero-msg h1 {
     text-align: center;
@@ -23,9 +24,16 @@ hero-msg h1 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 body {
     background-color:  #d0d4ca;
+    font-family: 'Rock Salt', Montserrat, Helvetica;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#55a5df;
@@ -44,6 +52,7 @@ nav a:hover {
 .home-title {
     background-color: #a97c73;
     color: #3a3631;
+    margin-top: 10px;
 } 
 h4 {
     background-color: #a97c73;
@@ -55,6 +64,11 @@ h4 {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-family: 'Rock Salt', Montserrat, Helvetica;
+    font-size: 18px
+    border-radius: 5px;
 } 
 .book:hover, .join:hover {
     background-color: #a97c73;
@@ -63,6 +77,7 @@ h4 {
 .msg h2 {
     background-color: #a97c73;
     color: #3a3631;
+    margin: 0;
 } 
 .msg p {
     background-color: #a97c73;
@@ -71,6 +86,8 @@ h4 {
 footer {
     background-color: #a97c73;
     color: #3a3631;
+    padding: 25px 50px;
+    margin-top: 200px;
 } 
 footer a {
     background-color: #a97c73;
@@ -95,4 +112,37 @@ background {
 }
 .icon { 
     width: 80px;
+    padding-top: 10px;
 }
+.home-title {
+    font-family: 'Rock Salt', Montserrat, Helvetica;
+    font-size: 2em;
+}
+.msg p {
+    font-family: 'Rock Salt', Montserrat, Helvetica;
+    font-size: .8em
+    padding-bottom: 15px;
+}
+.msg {
+    background-color: #a97c73;
+    line-height: 1.5em;
+    padding: 35px;
+  }
+  #logo_link {
+    padding-top: 5px;
+  }  
+  footer .social img {
+    padding-top: 15px;
+  }
+  .rivers-card {
+    margin: 200px 0;
+  }
+  .camping-card {
+    margin: 200px 0;
+  }
+  .rapids-card {
+    margin: 200px 0;
+  }
+  .card-img {
+    border: 10px solid #0e0d0d;
+  }
